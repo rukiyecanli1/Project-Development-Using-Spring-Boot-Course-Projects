@@ -1,0 +1,71 @@
+2023-01-09T15:22:35.067+03:00  INFO 13124 --- [main] c.f.FlightreservationApplication         : Starting FlightreservationApplication using Java 18.0.1.1 with PID 13124 (C:\Users\Abdullah\Desktop\udemy-projects\flightreservation\target\classes started by Abdullah in C:\Users\Abdullah\Desktop\udemy-projects\flightreservation)
+2023-01-09T15:22:35.073+03:00  INFO 13124 --- [main] c.f.FlightreservationApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-09T15:22:35.592+03:00  INFO 13124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-09T15:22:35.649+03:00  INFO 13124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 4 JPA repository interfaces.
+2023-01-09T15:22:36.157+03:00  INFO 13124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2023-01-09T15:22:36.166+03:00  INFO 13124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-09T15:22:36.166+03:00  INFO 13124 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-09T15:22:36.434+03:00  INFO 13124 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-01-09T15:22:36.442+03:00  INFO 13124 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2023-01-09T15:22:36.442+03:00  INFO 13124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1323 ms
+2023-01-09T15:22:36.546+03:00  INFO 13124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-09T15:22:36.803+03:00  INFO 13124 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@110b7837
+2023-01-09T15:22:36.805+03:00  INFO 13124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-09T15:22:36.842+03:00  INFO 13124 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-09T15:22:36.883+03:00  INFO 13124 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-09T15:22:37.031+03:00  WARN 13124 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-09T15:22:37.186+03:00  INFO 13124 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-01-09T15:22:37.792+03:00  INFO 13124 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-09T15:22:37.802+03:00  INFO 13124 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-09T15:22:38.310+03:00  WARN 13124 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-09T15:22:38.424+03:00  INFO 13124 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2023-01-09T15:22:38.557+03:00  INFO 13124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path '/flightreservation'
+2023-01-09T15:22:38.563+03:00  INFO 13124 --- [main] c.f.FlightreservationApplication         : Started FlightreservationApplication in 3.872 seconds (process running for 4.201)
+2023-01-09T15:22:40.678+03:00  INFO 13124 --- [http-nio-9091-exec-1] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-09T15:22:40.678+03:00  INFO 13124 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-09T15:22:40.679+03:00  INFO 13124 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-09T15:22:40.706+03:00  INFO 13124 --- [http-nio-9091-exec-1] c.f.controllers.UserController           : Inside  showLoginPage()
+2023-01-09T15:22:50.728+03:00  INFO 13124 --- [http-nio-9091-exec-2] c.f.controllers.UserController           : Inside login() and the email is: fener@gmail.com
+2023-01-09T15:22:56.163+03:00  INFO 13124 --- [http-nio-9091-exec-3] c.f.controllers.FlightController         : Inside findFlights(), from: AUSto: DAL
+2023-01-09T15:22:56.174+03:00  INFO 13124 --- [http-nio-9091-exec-3] c.f.controllers.FlightController         : flights found are: []
+2023-01-09T15:23:10.393+03:00  INFO 13100 --- [main] c.f.FlightreservationApplication         : Starting FlightreservationApplication using Java 18.0.1.1 with PID 13100 (C:\Users\Abdullah\Desktop\udemy-projects\flightreservation\target\classes started by Abdullah in C:\Users\Abdullah\Desktop\udemy-projects\flightreservation)
+2023-01-09T15:23:10.396+03:00  INFO 13100 --- [main] c.f.FlightreservationApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-01-09T15:23:10.924+03:00  INFO 13100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-09T15:23:10.986+03:00  INFO 13100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+2023-01-09T15:23:11.479+03:00  INFO 13100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2023-01-09T15:23:11.488+03:00  INFO 13100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-09T15:23:11.489+03:00  INFO 13100 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-09T15:23:11.725+03:00  INFO 13100 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-01-09T15:23:11.732+03:00  INFO 13100 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2023-01-09T15:23:11.732+03:00  INFO 13100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1292 ms
+2023-01-09T15:23:11.830+03:00  INFO 13100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-09T15:23:12.082+03:00  INFO 13100 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@110b7837
+2023-01-09T15:23:12.084+03:00  INFO 13100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-09T15:23:12.119+03:00  INFO 13100 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-09T15:23:12.159+03:00  INFO 13100 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-01-09T15:23:12.298+03:00  WARN 13100 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-01-09T15:23:12.451+03:00  INFO 13100 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-01-09T15:23:13.035+03:00  INFO 13100 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-09T15:23:13.043+03:00  INFO 13100 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-09T15:23:13.538+03:00  WARN 13100 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-09T15:23:13.646+03:00  INFO 13100 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2023-01-09T15:23:13.779+03:00  INFO 13100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path '/flightreservation'
+2023-01-09T15:23:13.785+03:00  INFO 13100 --- [main] c.f.FlightreservationApplication         : Started FlightreservationApplication in 3.779 seconds (process running for 4.08)
+2023-01-09T15:23:18.585+03:00  INFO 13100 --- [http-nio-9091-exec-1] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-09T15:23:18.585+03:00  INFO 13100 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-09T15:23:18.586+03:00  INFO 13100 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-09T15:23:18.615+03:00  INFO 13100 --- [http-nio-9091-exec-1] c.f.controllers.UserController           : Inside  showLoginPage()
+2023-01-09T15:23:27.674+03:00  INFO 13100 --- [http-nio-9091-exec-2] c.f.controllers.UserController           : Inside login() and the email is: fener@gmail.com
+2023-01-09T15:23:35.910+03:00  INFO 13100 --- [http-nio-9091-exec-3] c.f.controllers.FlightController         : Inside findFlights(), from: AUSto: NYC
+2023-01-09T15:23:35.922+03:00  INFO 13100 --- [http-nio-9091-exec-3] c.f.controllers.FlightController         : flights found are: [Flight [flightNumber=AA1, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05, estimatedDepartureTime=2018-02-05 03:14:07.0], Flight [flightNumber=AA2, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05, estimatedDepartureTime=2018-02-05 05:14:07.0], Flight [flightNumber=AA3, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05, estimatedDepartureTime=2018-02-05 06:14:07.0], Flight [flightNumber=SW1, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05, estimatedDepartureTime=2018-02-05 07:14:07.0], Flight [flightNumber=SW1, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-06, estimatedDepartureTime=2018-02-06 07:14:07.0], Flight [flightNumber=SW2, operatingAirlines=South West, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-06, estimatedDepartureTime=2018-02-06 08:14:07.0]]
+2023-01-09T15:23:38.809+03:00  INFO 13100 --- [http-nio-9091-exec-4] c.f.controllers.ReservationController    : Inside showCompleteReservation() invoked with the flight id: 1
+2023-01-09T15:23:38.830+03:00  INFO 13100 --- [http-nio-9091-exec-4] c.f.controllers.ReservationController    : flight is: Optional[Flight [flightNumber=AA1, operatingAirlines=American Airlines, departureCity=AUS, arrivalCity=NYC, dateOfDeparture=2018-02-05, estimatedDepartureTime=2018-02-05 03:14:07.0]]
+2023-01-09T15:23:58.678+03:00  INFO 13100 --- [http-nio-9091-exec-5] c.f.services.ReservationServiceImpl      : Inside bookFlight()
+2023-01-09T15:23:58.678+03:00  INFO 13100 --- [http-nio-9091-exec-5] c.f.services.ReservationServiceImpl      : Fetching flight for flight id: 1
+2023-01-09T15:23:58.682+03:00  INFO 13100 --- [http-nio-9091-exec-5] c.f.services.ReservationServiceImpl      : Saving the passenger: com.flightreservation.entities.Passenger@20fde8b0
+2023-01-09T15:23:58.708+03:00  INFO 13100 --- [http-nio-9091-exec-5] c.f.services.ReservationServiceImpl      : Saving the reservation: com.flightreservation.entities.Reservation@7cf95c00
+2023-01-09T15:23:58.717+03:00  INFO 13100 --- [http-nio-9091-exec-5] c.f.services.ReservationServiceImpl      : Generating the itinerary
+2023-01-09T15:23:58.718+03:00  INFO 13100 --- [http-nio-9091-exec-5] c.flightreservation.util.PDFGenerator    : Inside generateItinerary()
+2023-01-09T15:23:58.857+03:00  INFO 13100 --- [http-nio-9091-exec-5] c.f.services.ReservationServiceImpl      : Sending the itinerary to the email
+2023-01-09T15:23:58.858+03:00  INFO 13100 --- [http-nio-9091-exec-5] com.flightreservation.util.EmailUtil     : Inside sendItinerary()
+2023-01-09T15:23:58.878+03:00  INFO 13100 --- [http-nio-9091-exec-5] c.f.controllers.ReservationController    : Inside completeReservation(), request: ReservationRequest [flightId=1, passengerFirstName=ali, passengerLastName=fener, passengerEmail=fener@gmail.com, passengerPhone=fener123, nameOnTheCard=ALI FENER, cardNumber=768, expirationDate=2029, securityCode=345]
